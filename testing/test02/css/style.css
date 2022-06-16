@@ -1,0 +1,30 @@
+body {
+    background-color: #222630;
+    color: #F9F9F9;
+}
+
+div {
+    background-color: #D8A6F4;
+}
+
+a {
+    color: darkslateblue;
+}
+
+p a{
+    color: aquamarine;
+}
+
+h1, h2 {
+    color: crimson;
+}
+
+#intro {
+    font-size: 48px;
+    color: darkred;
+}
+
+.subtitle {
+    color: bisque;
+    font-style: italic;
+}
