@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(15, 15, 15);
+    color: aliceblue;
+}
+
+a {
+    color: darkslateblue;
+}
+
+p a{
+    color: aquamarine;
+}
+
+h1, h2 {
+    color: crimson;
+}
+
+#intro {
+    font-size: 48px;
+    color: darkred;
+}
+
+.subtitle {
+    color: bisque;
+    font-style: italic;
+}

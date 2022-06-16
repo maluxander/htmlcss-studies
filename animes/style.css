@@ -1,0 +1,28 @@
+body {
+    background-color: #222630;
+    color: #F9F9F9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #63C5EA;
+}
+
+h2 a{
+    text-decoration: none;
+    color: #2BE491;
+}
+
+.watched {
+    color: #FA5A5A;
+    text-decoration: line-through;
+}
+
+.towatch {
+    color: #FA74B2;
+}
+
+.watching {
+    color: #44EB9F;
+}
