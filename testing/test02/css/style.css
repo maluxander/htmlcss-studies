@@ -1,30 +1,45 @@
 body {
-    background-color: #222630;
+    background-color: #222730;
     color: #F9F9F9;
 }
 
 div {
-    background-color: #D8A6F4;
+    background-color: #434C5E;
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid #fff;
 }
 
 a {
-    color: darkslateblue;
+    color: #63C5EA;
 }
 
 p a{
-    color: aquamarine;
+    color: #2BE491;
 }
 
 h1, h2 {
-    color: crimson;
+    color: #FA5A5A;
 }
 
 #intro {
     font-size: 48px;
-    color: darkred;
+    color: #FBF8A1;
 }
 
 .subtitle {
-    color: bisque;
+    color: #FBB69D;
     font-style: italic;
+}
+
+.big {
+    width: 350px;
+}
+
+.medium {
+    width: 300px;
+}
+
+.small {
+    width: 100px;
 }
