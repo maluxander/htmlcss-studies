@@ -1,0 +1,42 @@
+body {
+    background-color: #222730;
+    color: #F9F9F9;
+}
+
+div {
+    background-color: #434C5E;
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid #fff;
+}
+
+span {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #63C5EA;
+}
+
+a {
+    color: #63C5EA;
+}
+
+h1, h2 {
+    color: #FA5A5A;
+}
+
+#intro {
+    font-size: 48px;
+    color: #FBF8A1;
+}
+
+.subtitle {
+    color: #FBB69D;
+    font-style: italic;
+}
+
+.link {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #FA5A5A;
+}
