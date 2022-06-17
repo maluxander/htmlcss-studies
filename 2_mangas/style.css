@@ -1,0 +1,56 @@
+body {
+  background-color: #0b0c0f;
+  color: #f4f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  color: #7cf1bc;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #bc7bf2;
+}
+
+h2 {
+  display: inline;
+  text-decoration: underline;
+  text-decoration-color: #7cf1bc;
+  margin-right: 15px;
+}
+
+.manga {
+  padding: 25px;
+  margin: 25px;
+  color: #f4f4f4;
+  background-color: #1a1d24;
+  border-radius: 6px;
+}
+
+.buy {
+  display: inline-block;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #bc7bf2;
+  color: #271a33;
+  border-radius: 3px;
+  font-size: 18px;
+}
+
+.jap {
+  font-family: "Yu Gothic Medium";
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #7cf1bc;
+}
+
+.ship {
+  font-size: 12px;
+  font-style: italic;
+  color: #baf8dc;
+}
