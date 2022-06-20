@@ -1,0 +1,65 @@
+/* Simpler and cleaner version of complicated_commented_style.css relying on HTML organization */
+body {
+  margin: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+p {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Styling the classes following the order that they appear in  the HTML file. It helps me organize the grid columns/rows better and in a cleaner and simpler way */
+
+.item {
+  /* Creates the grid */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.title {
+  font-size: 48px;
+  line-height: 1;
+  /* Grid config */
+  grid-column: 1 / -1;
+}
+
+.pic {
+  /* Making it fit the screen */
+  max-width: 100%;
+}
+
+.info {
+  /* Creates the grid for information (price, description and buy button*/
+  display: grid;
+  place-items: start; /* Since its div is inside another grid, the div itself will foce occupation over the entire cell. The cell size is based on the picture size inside it. That said, only "place-itemns" start will make huge gaps between info grid elements. Since info grid is a element inside a grid itself, let's place it on the start of the cell with: */
+  place-self: start;
+  gap: 20px;
+}
+
+.price {
+  /* Creating a tag */
+  background-color: darkslategrey;
+  color: gainsboro;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.description {
+  /* Making it readable */
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.buy {
+  /* Creating a button */
+  background-color: darkolivegreen;
+  color: azure;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
